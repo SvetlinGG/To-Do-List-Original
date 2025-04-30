@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+</head>
+<body>
+    <div class="notebook">
+        <div class="notebook-header">
+            <h1>Svetlin's To-Do List</h1>
+        </div>
+        
+        <div class="add-task">
+            <input type="text" id="task-input" placeholder="Write a new task...">
+            <button id="add-btn">Add</button>
+        </div>
+        
+        <div class="notebook-content">
+            <div class="tasks-section">
+                <h2>Tasks</h2>
+                <ul id="tasks-list" class="tasks-list">
+                    <!-- Tasks will be added here dynamically -->
+                </ul>
+            </div>
+            
+            <div class="completed-section">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-list" class="tasks-list">
+                    <!-- Completed tasks will be added here dynamically -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
